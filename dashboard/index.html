@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="node_modules/js-datepicker/dist/datepicker.min.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <aside class="menu">
+        <h1>collab.io</h1>
+        <nav class="nav">
+            <a href="#">dashboard</a>
+            <a href="#">backlog</a>
+            <a href="#">active sprint</a>
+            <a href="#">reports</a>
+            <a href="#">pages</a>
+            <a href="#">settings</a>
+        </nav>
+    </aside>
+    <main class="dashboard">
+        <div class="day">
+            <h2>My dashboard</h2>
+            <p id="date"></p>
+            <input type="text" id="date-pick" placeholder="find day">
+        </div>
+        <canvas id="myChart" class="chart" width="600" height="200"></canvas>
+    </main>
+    <aside id="profile" class="profile"></aside>
+
+    <script src="bundle.js"></script>
+</body>
+
+</html>

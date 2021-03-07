@@ -1,0 +1,16 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sml-anastasia",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "js-datepicker": "^5.18.0",
+    "moment": "^2.29.1"
+  }
+}
